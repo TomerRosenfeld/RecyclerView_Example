@@ -1,41 +1,52 @@
+/*
+ * Copyright (C) 2014 Francesco Azzola
+ *  Surviving with Android (http://www.survivingwithandroid.com)
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ */
 package com.example.android;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import com.example.android.recyclerview.R;
 import com.parse.FindCallback;
-import com.parse.GetCallback;
 import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
+import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by tomer on 11-Jun-15.
- */
-public class Main extends Activity {
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+
+public class MyActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        // Enable Local Datastore.
-        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        mRecyclerView.setHasFixedSize(true);
+        //setContentView(R.layout.activity_my);
+
+        setContentView(R.layout.activity_my);
+        final RecyclerView recList = (RecyclerView) findViewById(R.id.cardList);
+        recList.setHasFixedSize(true);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
-        mRecyclerView.setLayoutManager(llm);
-        Parse.enableLocalDatastore(this);
-
+        recList.setLayoutManager(llm);
         Parse.initialize(this, "5RS0RQgQ3O3fOpbjmD0oC9vuFbaCP3IskXl0C1UR", "MsR7b8iDRHQL7wHM5pL0aQ95dnKHQEe0xAveTGdQ");
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Items");
         query.whereEqualTo("category", "laptops");
@@ -43,21 +54,12 @@ public class Main extends Activity {
             public void done(List<ParseObject> scoreList, ParseException e) {
                 if (e == null) {
                     System.out.println(scoreList.get(0).getString("name"));
-
-                    // use this setting to improve performance if you know that changes
-                    // in content do not change the layout size of the RecyclerView
-
-                    // use a linear layout manager
-
-
-                    // specify an adapter (see also next example)
-                    mAdapter = new MyAdapter(scoreList);
-                    mRecyclerView.setAdapter(mAdapter);
+                    ContactAdapter ca = new ContactAdapter(scoreList);
+                    recList.setAdapter(ca);
                 } else {
-                    Log.d("score", "Error: " + e.getMessage());
+
                 }
             }
         });
-
     }
 }
