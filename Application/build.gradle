@@ -22,14 +22,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:21.0.2'
     compile files('src/main/libs/Parse-1.9.2.jar')
     compile 'com.parse.bolts:bolts-android:1.+'
-    //Core card library
-    compile 'com.github.gabrielemariotti.cards:cardslib-core:2.1.0'
 
-    //Optional for built-in cards
-    compile 'com.github.gabrielemariotti.cards:cardslib-cards:2.1.0'
-
-    //Optional for RecyclerView
-    compile 'com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0'
     compile fileTree(dir: 'libs', include: 'Parse-*.jar')
 }
 

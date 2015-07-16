@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="22.1.1"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\res"><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\res\values\values.xml" qualifiers=""><declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable><color name="cardview_shadow_start_color">#37000000</color><dimen name="cardview_default_elevation">2dp</dimen><style name="CardView">
+<merger version="3"><dataSet config="21.0.2"><source path="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/res"/></dataSet><dataSet config="21.0.2"><source path="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/res"/></dataSet><dataSet config="21.0.2"><source path="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res"><file path="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/res/values/values.xml" qualifiers=""><declare-styleable name="CardView">
+
+        <!-- Background color for CardView. -->
+        <attr format="color" name="cardBackgroundColor"/>
+        <!-- Corner radius for CardView. -->
+        <attr format="dimension" name="cardCornerRadius"/>
+        <!-- Elevation for CardView. -->
+        <attr format="dimension" name="cardElevation"/>
+        <!-- Maximum Elevation for CardView. -->
+        <attr format="dimension" name="cardMaxElevation"/>
+        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
+        <attr format="boolean" name="cardUseCompatPadding"/>
+        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
+        <attr format="boolean" name="cardPreventCornerOverlap"/>
+        <!-- Inner padding between the edges of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPadding"/>
+        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingLeft"/>
+        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingRight"/>
+        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingTop"/>
+        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
+        <attr format="dimension" name="contentPaddingBottom"/>
+    </declare-styleable><color name="cardview_shadow_start_color">#37000000</color><dimen name="cardview_default_elevation">2dp</dimen><style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
         <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
         <item name="cardElevation">@dimen/cardview_default_elevation</item>
@@ -10,526 +34,7 @@
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style><color name="cardview_light_background">#FFFAFAFA</color><dimen name="cardview_default_radius">2dp</dimen><style name="CardView.Dark">
         <item name="cardBackgroundColor">@color/cardview_dark_background</item>
-    </style><color name="cardview_dark_background">#FF202020</color></file></source></dataSet><dataSet config="22.1.1"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\res"/></dataSet><dataSet config="2.1.0"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res"><file name="activated_background_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\activated_background_card.xml" qualifiers="" type="drawable"/><file name="activated_background_kitkat_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\activated_background_kitkat_card.xml" qualifiers="" type="drawable"/><file name="activated_foreground_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\activated_foreground_card.xml" qualifiers="" type="drawable"/><file name="activated_foreground_kitkat_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\activated_foreground_kitkat_card.xml" qualifiers="" type="drawable"/><file name="card_background" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_background.xml" qualifiers="" type="drawable"/><file name="card_foreground_kitkat_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_foreground_kitkat_selector.xml" qualifiers="" type="drawable"/><file name="card_foreground_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_foreground_selector.xml" qualifiers="" type="drawable"/><file name="card_kitkat_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_kitkat_selector.xml" qualifiers="" type="drawable"/><file name="card_menu_button_expand" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_menu_button_expand.xml" qualifiers="" type="drawable"/><file name="card_menu_button_expand_material" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_menu_button_expand_material.xml" qualifiers="" type="drawable"/><file name="card_menu_button_expand_material_animator" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_menu_button_expand_material_animator.xml" qualifiers="" type="drawable"/><file name="card_menu_button_overflow" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_menu_button_overflow.xml" qualifiers="" type="drawable"/><file name="card_menu_button_overflow_material" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_menu_button_overflow_material.xml" qualifiers="" type="drawable"/><file name="card_menu_button_rounded_overflow" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_menu_button_rounded_overflow.xml" qualifiers="" type="drawable"/><file name="card_menu_button_rounded_overflow_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_menu_button_rounded_overflow_selector.xml" qualifiers="" type="drawable"/><file name="card_multichoice_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_multichoice_selector.xml" qualifiers="" type="drawable"/><file name="card_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_selector.xml" qualifiers="" type="drawable"/><file name="card_shadow" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_shadow.xml" qualifiers="" type="drawable"/><file name="card_undo" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\card_undo.xml" qualifiers="" type="drawable"/><file name="native_card_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\native_card_selector.xml" qualifiers="" type="drawable"/><file name="pressed_background_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\pressed_background_card.xml" qualifiers="" type="drawable"/><file name="pressed_background_kitkat_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable\pressed_background_kitkat_card.xml" qualifiers="" type="drawable"/><file name="ic_chevron_right_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_chevron_right_grey600_24dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_expand_less_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_expand_less_black_24dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_expand_less_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_expand_less_grey600_24dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_expand_more_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_expand_more_black_24dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_expand_more_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_expand_more_grey600_24dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_menu_expand_card_dark_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_menu_expand_card_dark_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_menu_overflow_card_dark_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_menu_overflow_card_dark_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_menu_overflow_card_rounded_dark_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_menu_overflow_card_rounded_dark_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_more_vert_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_more_vert_black_24dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_more_vert_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-hdpi\ic_more_vert_grey600_24dp.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_chevron_right_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_chevron_right_grey600_24dp.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_expand_less_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_expand_less_black_24dp.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_expand_less_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_expand_less_grey600_24dp.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_expand_more_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_expand_more_black_24dp.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_expand_more_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_expand_more_grey600_24dp.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_menu_expand_card_dark_normal.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_menu_expand_card_dark_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_menu_overflow_card_dark_normal.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_menu_overflow_card_dark_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_menu_overflow_card_rounded_dark_normal.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_menu_overflow_card_rounded_dark_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_more_vert_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_more_vert_black_24dp.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_more_vert_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-mdpi\ic_more_vert_grey600_24dp.png" qualifiers="mdpi-v4" type="drawable"/><file name="card_foreground_kitkat_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_foreground_kitkat_selector.xml" qualifiers="v21" type="drawable"/><file name="card_foreground_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_foreground_selector.xml" qualifiers="v21" type="drawable"/><file name="card_kitkat_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_kitkat_selector.xml" qualifiers="v21" type="drawable"/><file name="card_menu_button_expand" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_menu_button_expand.xml" qualifiers="v21" type="drawable"/><file name="card_menu_button_expand_material" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_menu_button_expand_material.xml" qualifiers="v21" type="drawable"/><file name="card_menu_button_expand_material_animator" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_menu_button_expand_material_animator.xml" qualifiers="v21" type="drawable"/><file name="card_menu_button_overflow_material" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_menu_button_overflow_material.xml" qualifiers="v21" type="drawable"/><file name="card_selector" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-v21\card_selector.xml" qualifiers="v21" type="drawable"/><file name="ic_chevron_right_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_chevron_right_grey600_24dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_expand_less_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_expand_less_black_24dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_expand_less_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_expand_less_grey600_24dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_expand_more_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_expand_more_black_24dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_expand_more_black_36dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_expand_more_black_36dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_expand_more_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_expand_more_grey600_24dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_expand_more_grey600_36dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_expand_more_grey600_36dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_menu_expand_card_dark_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_menu_expand_card_dark_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_menu_overflow_card_dark_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_menu_overflow_card_dark_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_menu_overflow_card_rounded_dark_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_menu_overflow_card_rounded_dark_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_more_vert_black_36dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_more_vert_black_36dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_more_vert_grey600_36dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_more_vert_grey600_36dp.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_undobar_undo" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\ic_undobar_undo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="undobar" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\undobar.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="undobar_button_focused" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\undobar_button_focused.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="undobar_button_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\undobar_button_pressed.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="undobar_divider" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xhdpi\undobar_divider.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_chevron_right_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_chevron_right_grey600_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_expand_less_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_expand_less_black_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_expand_less_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_expand_less_grey600_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_expand_more_black_18dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_expand_more_black_18dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_expand_more_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_expand_more_black_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_expand_more_grey600_18dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_expand_more_grey600_18dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_expand_more_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_expand_more_grey600_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_menu_expand_card_dark_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_expand_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_menu_expand_card_dark_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_menu_overflow_card.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_menu_overflow_card_dark_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_menu_overflow_card_dark_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_normal" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_menu_overflow_card_rounded_dark_normal.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_overflow_card_rounded_dark_pressed" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_menu_overflow_card_rounded_dark_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_more_vert_black_18dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_more_vert_black_18dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_more_vert_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_more_vert_black_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_more_vert_grey600_18dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_more_vert_grey600_18dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_more_vert_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxhdpi\ic_more_vert_grey600_24dp.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_chevron_right_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxxhdpi\ic_chevron_right_grey600_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_expand_less_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxxhdpi\ic_expand_less_black_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_expand_less_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxxhdpi\ic_expand_less_grey600_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_expand_more_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxxhdpi\ic_expand_more_black_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_expand_more_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxxhdpi\ic_expand_more_grey600_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_more_vert_black_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxxhdpi\ic_more_vert_black_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="ic_more_vert_grey600_24dp" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\drawable-xxxhdpi\ic_more_vert_grey600_24dp.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="base_header_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\base_header_layout.xml" qualifiers="" type="layout"/><file name="base_list_expandable_children_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\base_list_expandable_children_layout.xml" qualifiers="" type="layout"/><file name="base_section_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\base_section_layout.xml" qualifiers="" type="layout"/><file name="base_shadow_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\base_shadow_layout.xml" qualifiers="" type="layout"/><file name="base_thumbnail_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\base_thumbnail_layout.xml" qualifiers="" type="layout"/><file name="base_withlist_empty" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\base_withlist_empty.xml" qualifiers="" type="layout"/><file name="base_withlist_progress" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\base_withlist_progress.xml" qualifiers="" type="layout"/><file name="card_base_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\card_base_layout.xml" qualifiers="" type="layout"/><file name="card_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\card_layout.xml" qualifiers="" type="layout"/><file name="card_overlay_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\card_overlay_layout.xml" qualifiers="" type="layout"/><file name="card_thumbnail_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\card_thumbnail_layout.xml" qualifiers="" type="layout"/><file name="card_thumbnail_overlay_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\card_thumbnail_overlay_layout.xml" qualifiers="" type="layout"/><file name="card_undo_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\card_undo_layout.xml" qualifiers="" type="layout"/><file name="inner_base_expand" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\inner_base_expand.xml" qualifiers="" type="layout"/><file name="inner_base_header" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\inner_base_header.xml" qualifiers="" type="layout"/><file name="inner_base_main" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\inner_base_main.xml" qualifiers="" type="layout"/><file name="inner_base_main_cardwithlist" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\inner_base_main_cardwithlist.xml" qualifiers="" type="layout"/><file name="list_card_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\list_card_layout.xml" qualifiers="" type="layout"/><file name="list_card_thumbnail_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\list_card_thumbnail_layout.xml" qualifiers="" type="layout"/><file name="list_card_undo_materialmobile_message" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\list_card_undo_materialmobile_message.xml" qualifiers="" type="layout"/><file name="list_card_undo_material_message" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\list_card_undo_material_message.xml" qualifiers="" type="layout"/><file name="list_card_undo_message" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\list_card_undo_message.xml" qualifiers="" type="layout"/><file name="native_base_header_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_base_header_layout.xml" qualifiers="" type="layout"/><file name="native_base_thumbnail_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_base_thumbnail_layout.xml" qualifiers="" type="layout"/><file name="native_cardwithlist_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_cardwithlist_layout.xml" qualifiers="" type="layout"/><file name="native_card_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_card_layout.xml" qualifiers="" type="layout"/><file name="native_card_thumbnail_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_card_thumbnail_layout.xml" qualifiers="" type="layout"/><file name="native_inner_base_expand" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_inner_base_expand.xml" qualifiers="" type="layout"/><file name="native_inner_base_header" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_inner_base_header.xml" qualifiers="" type="layout"/><file name="native_inner_base_main" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_inner_base_main.xml" qualifiers="" type="layout"/><file name="native_inner_base_main_cardwithlist" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_inner_base_main_cardwithlist.xml" qualifiers="" type="layout"/><file name="native_list_card_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_list_card_layout.xml" qualifiers="" type="layout"/><file name="native_list_card_thumbnail_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\layout\native_list_card_thumbnail_layout.xml" qualifiers="" type="layout"/><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\values\values.xml" qualifiers=""><dimen name="card_header_simple_title_margin_left">10dp</dimen><style name="list_card_UndoBarMessage_materialmobile">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginLeft">0dp</item>
-        <item name="android:layout_marginRight">24dp</item>
-        <item name="android:layout_marginBottom">18dp</item>
-        <item name="android:layout_marginTop">18dp</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#fff</item>
-    </style><style name="list_card_UndoBar_materialmobile">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:minHeight">56dp</item>
-        <item name="android:maxHeight">80dp</item>
-        <item name="android:layout_gravity">bottom</item>
-        <item name="android:layout_marginLeft">0dp</item>
-        <item name="android:layout_marginRight">0dp</item>
-        <item name="android:layout_marginBottom">0dp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:paddingRight">0dp</item>
-        <item name="android:orientation">horizontal</item>
-        <item name="android:background">@color/card_undobar_material_background_color</item>
-        <item name="android:clickable">true</item>
-    </style><dimen name="card_default_native_margin_top">12dp</dimen><style name="card.main_layout_foreground.kitkat">
-        <item name="android:foreground">@drawable/card_foreground_kitkat_selector</item>
-    </style><style name="card.native">
-        <!-- this style should be empty -->
-    </style><style name="card.native.header_button_base">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:focusable">false</item>
-        <item name="android:focusableInTouchMode">false</item>
-        <item name="android:clickable">true</item>
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/card_header_native_button_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_header_native_button_margin_right</item>
-        <item name="android:paddingLeft">0dp</item>
-    </style><style name="card.native.expand_simple_title">
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">@dimen/card_expand_native_simple_title_text_size</item>
-        <item name="android:paddingLeft">@dimen/card_expand_native_simple_title_padding_left</item>
-        <item name="android:paddingRight">@dimen/card_expand_native_simple_title_padding_right</item>
-        <item name="android:textColor">@color/card_expand_title_color</item>
-    </style><dimen name="card_header_button_overflow_margin_right">3dp</dimen><color name="card_foreground_activated_kitkat">#99ADE1F4</color><color name="card_native_base_cardwithlist_divider_color">#E5E5E5</color><dimen name="card_base_cardwithlist_dividerHeight">1dp</dimen><dimen name="card_main_native_simple_title_margin_left">0dp</dimen><dimen name="card_expand_native_simple_title_padding_left">0dp</dimen><dimen name="card_expand_layout_padding">2dp</dimen><dimen name="card_header_native_default_paddingRight">12dp</dimen><dimen name="card_background_default_radius">2dp</dimen><string name="card_empty_cardwithlist_text">No data....</string><integer name="list_card_swipe_distance_divisor">2</integer><dimen name="card_shadow_view_margin_bottom">0dp</dimen><style name="card.main_contentExpand">
-        <item name="android:background">@color/card_backgroundExpand</item>
-        <item name="android:padding">@dimen/card_expand_layout_padding</item>
-    </style><dimen name="card_header_button_padding_right">0dp</dimen><color name="card_background_header">#FFF</color><dimen name="card_main_simple_title_margin_left">5dp</dimen><dimen name="card_main_content_native_cardwithlist_paddingTop">12dp</dimen><dimen name="card_main_simple_title_margin_top">0dp</dimen><style name="cardwithlist">
-        <item name="android:layout_marginTop">@dimen/card_base_cardwithlist_list_margin_top</item>
-        <item name="android:layout_marginLeft">@dimen/card_base_cardwithlist_list_margin_left</item>
-        <item name="android:divider">@color/card_base_cardwithlist_divider_color</item>
-        <item name="android:showDividers">middle|beginning</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@color/card_base_cardwithlist_background_list_color</item>
-    </style><dimen name="card_expand_native_layout_padding_top">12dp</dimen><dimen name="card_header_button_padding_left">10dp</dimen><dimen name="card_header_simple_title_margin_bottom">0dp</dimen><dimen name="card_section_container_padding_right">15dp</dimen><dimen name="card_base_empty_height">96dp</dimen><dimen name="grid_card_padding_left">2dp</dimen><style name="native_list_card.base">
-
-    </style><color name="card_native_background">@android:color/transparent</color><style name="card.native.card_thumbnail_image">
-        <item name="android:layout_width">@dimen/card_thumbnail_width</item>
-        <item name="android:layout_height">@dimen/card_thumbnail_height</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:gravity">center</item>
-        <item name="android:scaleType">centerCrop</item>
-    </style><dimen name="card_expand_native_layout_padding_bottom">12dp</dimen><dimen name="grid_card_padding_right">2dp</dimen><dimen name="card_header_native_simple_title_margin_bottom">0dp</dimen><style name="card_section_title">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignParentLeft">true</item>
-        <item name="android:textSize">@dimen/card_section_title</item>
-        <item name="android:textColor">@color/card_section_title_color</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:layout_marginTop">@dimen/card_section_title_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_section_title_margin_top</item>
-    </style><style name="native_list_card">
-        <item name="android:layout_marginLeft">@dimen/native_list_card_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/native_list_card_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/native_list_card_margin_bottom</item>
-        <item name="android:layout_marginTop">@dimen/native_list_card_margin_top</item>
-    </style><color name="card_native_base_cardwithlist_background_list_color">#10000000</color><dimen name="card_base_cardwithlist_layout_rightmargin">0dp</dimen><dimen name="card_section_title_margin_top">10dp</dimen><plurals name="list_card_undo_items">
-        <item quantity="one">1 card removed</item>
-        <item quantity="other">%d cards removed</item>
-    </plurals><dimen name="card_header_button_margin_right">2dp</dimen><color name="card_foreground_activated">#99CFE9F3</color><style name="list_card_UndoBar_material">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">56dp</item>
-        <item name="android:layout_gravity">bottom</item>
-        <item name="android:layout_marginLeft">32dp</item>
-        <item name="android:layout_marginRight">32dp</item>
-        <item name="android:layout_marginBottom">24dp</item>
-        <item name="android:paddingBottom">18dp</item>
-        <item name="android:paddingTop">18dp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:paddingRight">24dp</item>
-        <item name="android:orientation">horizontal</item>
-        <item name="android:background">@color/card_undobar_material_background_color</item>
-        <item name="android:clickable">true</item>
-    </style><dimen name="list_card_padding_bottom">6dp</dimen><dimen name="card_expand_native_simple_title_text_size">14sp</dimen><style name="list_card_UndoBarMessage_material">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginLeft">0dp</item>
-        <item name="android:layout_marginRight">24dp</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#fff</item>
-    </style><dimen name="card_expand_native_margin_left">0dp</dimen><style name="card.main_layout_foreground">
-        <item name="android:background">@drawable/card_background</item>
-        <item name="android:foreground">@drawable/card_foreground_selector</item>
-        <item name="android:layout_marginTop">@dimen/card_main_layout_view_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_main_layout_view_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_layout_view_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_main_layout_view_margin_right</item>
-    </style><style name="card.native.header_outer_layout">
-        <item name="android:paddingLeft">@dimen/card_header_native_default_paddingLeft</item>
-        <item name="android:paddingRight">@dimen/card_header_native_default_paddingRight</item>
-        <item name="android:paddingTop">@dimen/card_header_native_default_paddingTop</item>
-        <item name="android:paddingBottom">@dimen/card_header_native_default_paddingBottom</item>
-    </style><style name="card.native.content_outer_layout.cardwithlist">
-        <item name="android:paddingLeft">@dimen/card_main_content_native_cardwithlist_paddingLeft</item>
-        <item name="android:paddingRight">@dimen/card_main_content_native_cardwithlist_paddingRight</item>
-        <item name="android:paddingTop">@dimen/card_main_content_native_cardwithlist_paddingTop</item>
-        <item name="android:paddingBottom">@dimen/card_main_content_native_cardwithlist_paddingBottom</item>
-    </style><dimen name="card_main_layout_view_margin_right">0dp</dimen><dimen name="native_recyclerview_card_margin_top">6dp</dimen><style name="card.native.card_thumbnail_outer_layout">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style><dimen name="card_main_layout_native_view_margin_left">0dp</dimen><style name="list_card">
-        <item name="android:paddingLeft">@dimen/list_card_padding_left</item>
-        <item name="android:paddingRight">@dimen/list_card_padding_right</item>
-        <item name="android:paddingBottom">@dimen/list_card_padding_bottom</item>
-        <item name="android:paddingTop">@dimen/list_card_padding_top</item>
-    </style><style name="native_cardwithlist">
-        <item name="android:layout_marginTop">@dimen/card_base_cardwithlist_list_margin_top</item>
-        <item name="android:layout_marginLeft">@dimen/card_base_cardwithlist_list_margin_left</item>
-        <item name="android:divider">@color/card_native_base_cardwithlist_divider_color</item>
-        <item name="android:showDividers">middle|beginning</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:background">@color/card_native_base_cardwithlist_background_list_color</item>
-    </style><dimen name="card_header_button_padding_bottom">0dp</dimen><dimen name="card_main_content_native_default_paddingRight">12dp</dimen><dimen name="grid_card_padding_top">2dp</dimen><style name="card.main_layout.kitkat">
-        <item name="android:background">@drawable/card_kitkat_selector</item>
-    </style><style name="card.native.header_simple_title">
-        <item name="android:textSize">@dimen/card_header_native_simple_title_text_size</item>
-        <item name="android:textColor">@color/card_text_color_header</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/card_header_native_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_header_native_simple_title_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/card_header_native_simple_title_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/card_header_native_simple_title_margin_bottom</item>
-    </style><dimen name="card_expand_native_simple_title_padding_right">0dp</dimen><style name="card.header_button_base">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:paddingLeft">@dimen/card_header_button_padding_left</item>
-        <item name="android:focusable">false</item>
-        <item name="android:focusableInTouchMode">false</item>
-        <item name="android:clickable">true</item>
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginRight">@dimen/card_header_button_margin_right</item>
-    </style><dimen name="native_recyclerview_card_margin_right">0dp</dimen><dimen name="native_list_card_margin_bottom">6dp</dimen><style name="card_section_container">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">@dimen/card_section_container_padding_left</item>
-        <item name="android:paddingRight">@dimen/card_section_container_padding_right</item>
-        <item name="android:background">@color/card_section_container_color</item>
-    </style><style name="list_card_UndoBar">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">48dp</item>
-        <item name="android:layout_gravity">bottom</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:layout_marginRight">8dp</item>
-        <item name="android:layout_marginBottom">16dp</item>
-        <item name="android:orientation">horizontal</item>
-        <item name="android:background">@drawable/undobar</item>
-        <item name="android:clickable">true</item>
-        <item name="android:showDividers">middle</item>
-        <item name="android:divider">@drawable/undobar_divider</item>
-        <item name="android:dividerPadding">10dp</item>
-    </style><dimen name="card_main_content_native_default_paddingLeft">12dp</dimen><color name="card_text_color_header">#000</color><dimen name="native_recyclerview_card_margin_bottom">6dp</dimen><dimen name="card_base_cardwithlist_list_margin_left">0dp</dimen><style name="native_list_card.thumbnail">
-
-    </style><style name="list_card.thumbnail">
-
-    </style><string name="font_fontFamily_medium">sans-serif</string><dimen name="card_header_native_simple_title_margin_right">0dp</dimen><color name="card_activated_kitkat">#ADE1F4</color><style name="card.header_button_frame">
-
-    </style><dimen name="card_shadow_view_margin_right">@dimen/card_background_default_radius</dimen><dimen name="card_main_layout_native_view_margin_bottom">0dp</dimen><dimen name="card_main_layout_view_margin_top">0dp</dimen><style name="card.expand_simple_title">
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">@dimen/card_expand_simple_title_text_size</item>
-        <item name="android:paddingLeft">@dimen/card_expand_simple_title_paddingLeft</item>
-        <item name="android:paddingRight">@dimen/card_expand_simple_title_paddingRight</item>
-        <item name="android:textColor">@color/card_expand_title_color</item>
-    </style><style name="card.native.base_simple_title">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">@dimen/card_main_content_native_simple_title_text_size</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_native_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_main_native_simple_title_margin_top</item>
-    </style><style name="list_card_UndoBarMessage">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_weight">1</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginLeft">16dp</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginRight">16dp</item>
-        <item name="android:textAppearance">?android:textAppearanceSmall</item>
-        <item name="android:textColor">#fff</item>
-
-    </style><dimen name="card_main_content_native_cardwithlist_paddingLeft">0dp</dimen><style name="native_grid_card">
-        <item name="android:paddingLeft">@dimen/grid_card_padding_left</item>
-        <item name="android:paddingRight">@dimen/grid_card_padding_right</item>
-        <item name="android:paddingBottom">@dimen/grid_card_padding_bottom</item>
-        <item name="android:paddingTop">@dimen/grid_card_padding_top</item>
-    </style><color name="card_pressed">#7E0099CC</color><dimen name="card_expand_native_layout_padding_left">12dp</dimen><style name="card.shadow_image">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/card_shadow_height</item>
-        <item name="android:src">@drawable/card_shadow</item>
-        <item name="android:layout_below">@+id/card_main_content_layout</item>
-    </style><dimen name="card_header_native_button_margin_right">0dp</dimen><dimen name="card_main_content_native_simple_title_text_size">16sp</dimen><dimen name="list_card_padding_top">2dp</dimen><style name="card_thumbnail_image">
-        <item name="android:layout_width">@dimen/card_thumbnail_width</item>
-        <item name="android:layout_height">@dimen/card_thumbnail_height</item>
-        <item name="android:layout_gravity">center</item>
-        <item name="android:gravity">center</item>
-        <item name="android:scaleType">centerCrop</item>
-    </style><dimen name="card_main_layout_native_view_margin_right">0dp</dimen><dimen name="card_shadow_height">3dp</dimen><dimen name="card_expand_simple_title_paddingRight">10dp</dimen><dimen name="card_header_simple_title_margin_top">5dp</dimen><style name="card">
-        <!-- this style should be empty -->
-    </style><style name="card.header_button_base.overflow">
-        <item name="android:background">@drawable/card_menu_button_rounded_overflow</item>
-    </style><dimen name="native_list_card_margin_right">0dp</dimen><plurals name="card_selected_items">
-        <item quantity="one">1 item selected</item>
-        <item quantity="other">%d items selected</item>
-    </plurals><style name="card.main_layout">
-        <item name="android:background">@drawable/card_selector</item>
-        <item name="android:layout_marginTop">@dimen/card_main_layout_view_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_main_layout_view_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_layout_view_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_main_layout_view_margin_right</item>
-    </style><color name="card_undobar_material_text_color">#4CAF50</color><color name="card_pressed_kitkat">#10000000</color><dimen name="card_default_native_margin_right">8dp</dimen><dimen name="card_header_native_default_paddingBottom">0dp</dimen><dimen name="card_header_native_button_margin_left">0dp</dimen><dimen name="card_section_container_padding_left">15dp</dimen><color name="card_section_title_color">@android:color/black</color><style name="card_external">
-        <item name="android:layout_marginTop">@dimen/card_default_native_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_default_native_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_default_native_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_default_native_margin_right</item>
-    </style><style name="card_thumbnail_outer_layout">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style><dimen name="list_card_padding_left">8dp</dimen><style name="card.native.header_button_base.expand">
-        <item name="android:background">@drawable/card_menu_button_expand_material_animator</item>
-    </style><dimen name="card_content_outer_view_margin_bottom">0dp</dimen><dimen name="card_main_content_native_default_paddingTop">12dp</dimen><style name="card.header_simple_title">
-        <item name="android:textSize">@dimen/card_header_simple_title_text_size</item>
-        <item name="android:textColor">@color/card_text_color_header</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/card_header_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_header_simple_title_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/card_header_simple_title_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/card_header_simple_title_margin_bottom</item>
-    </style><dimen name="card_header_simple_title_text_size">20sp</dimen><style name="card.native.header_button_frame">
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_alignParentRight">true</item>
-    </style><dimen name="card_header_native_simple_title_margin">0dp</dimen><dimen name="card_header_native_simple_title_text_size">18sp</dimen><dimen name="card_default_native_margin_left">8dp</dimen><dimen name="card_expand_native_layout_padding_right">12dp</dimen><dimen name="card_header_outer_view_margin_left">0dp</dimen><style name="card.header_outer_layout">
-        <item name="android:layout_marginTop">@dimen/card_header_outer_view_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_header_outer_view_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_header_outer_view_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_header_outer_view_margin_right</item>
-    </style><dimen name="card_main_simple_title_margin_bottom">0dp</dimen><dimen name="grid_card_padding_bottom">2dp</dimen><dimen name="card_expand_simple_title_text_size">14sp</dimen><dimen name="card_main_content_native_cardwithlist_paddingBottom">12dp</dimen><dimen name="card_header_default_padding">12dp</dimen><dimen name="card_header_native_simple_title_margin_left">0dp</dimen><dimen name="card_expand_native_margin_right">0dp</dimen><style name="list_card_UndoBarButton_material">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:gravity">right</item>
-        <item name="android:background">?android:selectableItemBackground</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/card_undobar_material_text_color</item>
-        <item name="android:text">@string/list_card_undo_title</item>
-    </style><style name="card.native.main_layout">
-        <item name="android:background">?android:selectableItemBackground</item>
-        <item name="android:layout_marginTop">@dimen/card_main_layout_native_view_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_main_layout_native_view_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_layout_native_view_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_main_layout_native_view_margin_right</item>
-    </style><style name="card.native.header_compound_view">
-
-    </style><dimen name="list_card_padding_right">8dp</dimen><style name="card.native.header_outer_layout.nomargin">
-        <item name="android:paddingLeft">0dp</item>
-        <item name="android:paddingRight">0dp</item>
-        <item name="android:paddingTop">0dp</item>
-        <item name="android:paddingBottom">0dp</item>
-    </style><dimen name="card_shadow_view_margin_top">0dp</dimen><dimen name="card_base_cardwithlist_layout_leftmargin">0dp</dimen><dimen name="card_shadow_view_margin_left">@dimen/card_background_default_radius</dimen><style name="card.shadow_outer_layout">
-        <item name="android:layout_marginTop">@dimen/card_shadow_view_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_shadow_view_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_shadow_view_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_shadow_view_margin_right</item>
-    </style><color name="card_base_cardwithlist_background_list_color">#10000000</color><dimen name="card_expand_simple_title_paddingLeft">10dp</dimen><style name="card.header_compound_view">
-
-    </style><dimen name="card_header_simple_title_margin_right">20dp</dimen><color name="card_expand_title_color">#B3B2B2</color><style name="card.native.header_inner_frame">
-        <item name="android:layout_centerVertical">true</item>
-    </style><dimen name="native_list_card_margin_left">0dp</dimen><style name="card.header_button_base.expand">
-        <item name="android:background">@drawable/card_menu_button_expand</item>
-    </style><dimen name="card_base_cardwithlist_list_margin_top">10dp</dimen><style name="grid_card">
-        <item name="android:paddingLeft">@dimen/grid_card_padding_left</item>
-        <item name="android:paddingRight">@dimen/grid_card_padding_right</item>
-        <item name="android:paddingBottom">@dimen/grid_card_padding_bottom</item>
-        <item name="android:paddingTop">@dimen/grid_card_padding_top</item>
-    </style><dimen name="card_content_outer_view_margin_left">0dp</dimen><dimen name="native_recyclerview_card_margin_left">0dp</dimen><dimen name="card_main_layout_view_margin_left">0dp</dimen><declare-styleable name="card_options"><attr format="reference" name="card_layout_resourceID"/><attr format="reference" name="card_shadow_layout_resourceID"/><attr format="reference" name="card_header_layout_resourceID"/><attr format="reference" name="card_thumbnail_layout_resourceID"/><attr format="reference" name="list_card_layout_resourceID"/><attr format="reference" name="list_card_layout_resourceIDs"/></declare-styleable><dimen name="card_default_native_margin_bottom">12dp</dimen><dimen name="card_header_outer_view_margin_top">0dp</dimen><dimen name="card_header_native_default_paddingTop">12dp</dimen><dimen name="card_main_layout_view_margin_bottom">0dp</dimen><string name="list_card_undo_title">Undo</string><color name="card_section_container_color">#10000000</color><dimen name="native_list_card_margin_top">6dp</dimen><style name="card.content_outer_layout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:minHeight">@dimen/card_base_empty_height</item>
-        <item name="android:layout_marginTop">@dimen/card_content_outer_view_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_content_outer_view_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_content_outer_view_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_content_outer_view_margin_right</item>
-    </style><style name="card.native.thumbnail_compound_view">
-
-    </style><dimen name="card_header_native_default_paddingLeft">12dp</dimen><string name="font_fontFamily_regular">sans-serif</string><dimen name="card_thumbnail_height">72dp</dimen><dimen name="card_main_layout_native_view_margin_top">0dp</dimen><dimen name="card_main_content_native_cardwithlist_paddingRight">0dp</dimen><style name="card.native.header_button_base.other">
-
-    </style><style name="list_card.base">
-
-    </style><style name="card.header_button_base.other">
-
-    </style><dimen name="card_header_button_padding_top">0dp</dimen><color name="card_base_cardwithlist_divider_color">#E5E5E5</color><style name="card.base_simple_title">
-        <item name="android:textStyle">bold</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_main_simple_title_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/card_main_simple_title_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/card_main_simple_title_margin_bottom</item>
-    </style><color name="card_activated">#CFE9F3</color><style name="card.native.content_outer_layout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:minHeight">@dimen/card_base_empty_height</item>
-        <item name="android:paddingLeft">@dimen/card_main_content_native_default_paddingLeft</item>
-        <item name="android:paddingRight">@dimen/card_main_content_native_default_paddingRight</item>
-        <item name="android:paddingTop">@dimen/card_main_content_native_default_paddingTop</item>
-        <item name="android:paddingBottom">@dimen/card_main_content_native_default_paddingBottom</item>
-    </style><style name="native_list_external">
-        <item name="android:clipToPadding">false</item>
-        <item name="android:scrollbarStyle">outsideOverlay</item>
-    </style><dimen name="card_main_native_simple_title_margin_top">0dp</dimen><style name="card.native.main_contentExpand">
-        <item name="android:background">@color/card_backgroundExpand</item>
-        <item name="android:layout_marginLeft">@dimen/card_expand_native_margin_right</item>
-        <item name="android:layout_marginRight">@dimen/card_expand_native_margin_right</item>
-        <item name="android:paddingLeft">@dimen/card_expand_native_layout_padding_left</item>
-        <item name="android:paddingRight">@dimen/card_expand_native_layout_padding_right</item>
-        <item name="android:paddingTop">@dimen/card_expand_native_layout_padding_top</item>
-        <item name="android:paddingBottom">@dimen/card_expand_native_layout_padding_bottom</item>
-    </style><dimen name="card_header_outer_view_margin_right">0dp</dimen><style name="card.native.header_button_base.overflow">
-        <item name="android:background">@drawable/card_menu_button_overflow_material</item>
-    </style><declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundInsidePadding"/><attr name="android:foregroundGravity"/></declare-styleable><style name="card.thumbnail_compound_view"/><dimen name="card_main_content_native_default_paddingBottom">12dp</dimen><color name="card_backgroundExpand">#515254</color><dimen name="card_thumbnail_width">72dp</dimen><declare-styleable name="card_listItem"><attr format="dimension" name="card_list_item_dividerHeight"/></declare-styleable><dimen name="card_header_outer_view_margin_bottom">0dp</dimen><dimen name="card_section_title">18sp</dimen><dimen name="card_content_outer_view_margin_right">0dp</dimen><color name="card_background">#FFF</color><dimen name="card_main_simple_title_margin_right">0dp</dimen><integer name="list_card_undobar_hide_delay">5000</integer><string name="card_progressbar_cardwithlist_text">Loading data...</string><dimen name="card_header_native_simple_title_margin_top">0dp</dimen><dimen name="card_content_outer_view_margin_top">0dp</dimen><style name="list_card_UndoBarButton">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:paddingRight">16dp</item>
-        <item name="android:background">@drawable/card_undo</item>
-        <item name="android:drawableLeft">@drawable/ic_undobar_undo</item>
-        <item name="android:drawablePadding">12dp</item>
-        <item name="android:textAppearance">?android:textAppearanceSmall</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#fff</item>
-        <item name="android:text">@string/list_card_undo_title</item>
-    </style><style name="list_card_UndoBarButton_materialmobile">
-        <item name="android:layout_gravity">center_vertical|right</item>
-        <item name="android:gravity">right</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingBottom">18dp</item>
-        <item name="android:paddingTop">18dp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:paddingRight">24dp</item>
-        <item name="android:background">?android:selectableItemBackground</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/card_undobar_material_text_color</item>
-        <item name="android:text">@string/list_card_undo_title</item>
-    </style><color name="card_undobar_material_background_color">#323232</color><style name="card.native.main_layout_foreground">
-        <item name="android:foreground">?android:selectableItemBackground</item>
-        <item name="android:background">@color/card_native_background</item>
-        <item name="android:layout_marginTop">@dimen/card_main_layout_native_view_margin_top</item>
-        <item name="android:layout_marginBottom">@dimen/card_main_layout_native_view_margin_bottom</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_layout_native_view_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_main_layout_native_view_margin_right</item>
-    </style></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\values-de\values-de.xml" qualifiers="de"><plurals name="list_card_undo_items">
-        <item quantity="one">1 Karte entfernt</item>
-        <item quantity="other">%d Karten entfernt</item>
-    </plurals><string name="list_card_undo_title">Rückgängig</string><plurals name="card_selected_items">
-        <item quantity="one">1 Element gewählt</item>
-        <item quantity="other">%d Elemente gewählt</item>
-    </plurals></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\values-v16\values-v16.xml" qualifiers="v16"><string name="card_native_font_fontFamily_main_content">sans-serif</string><string name="card_native_font_fontFamily_header">sans-serif-medium</string><style name="card.native.header_simple_title">
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:textSize">@dimen/card_header_native_simple_title_text_size</item>
-        <item name="android:textColor">@color/card_text_color_header</item>
-        <item name="android:fontFamily">@string/card_native_font_fontFamily_header</item>
-        <item name="android:layout_marginLeft">@dimen/card_header_native_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_header_native_simple_title_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/card_header_native_simple_title_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/card_header_native_simple_title_margin_bottom</item>
-    </style><style name="card.native.base_simple_title">
-        <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">@string/card_native_font_fontFamily_main_content</item>
-        <item name="android:textSize">@dimen/card_main_content_native_simple_title_text_size</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_native_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_main_native_simple_title_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/card_header_native_simple_title_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/card_header_native_simple_title_margin_bottom</item>
-    </style><style name="card.base_simple_title">
-        <item name="android:textStyle">bold</item>
-        <item name="android:fontFamily">@string/card_font_fontFamily_main_content</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/card_main_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_main_simple_title_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/card_main_simple_title_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/card_main_simple_title_margin_bottom</item>
-    </style><string name="card_native_font_fontFamily_expand">sans-serif</string><style name="card"/><string name="card_font_fontFamily_main_content">sans-serif</string><style name="card.header_simple_title">
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:fontFamily">@string/card_font_fontFamily_header</item>
-        <item name="android:textColor">@color/card_text_color_header</item>
-        <item name="android:textSize">@dimen/card_header_simple_title_text_size</item>
-        <item name="android:layout_marginLeft">@dimen/card_header_simple_title_margin_left</item>
-        <item name="android:layout_marginTop">@dimen/card_header_simple_title_margin_top</item>
-        <item name="android:layout_marginRight">@dimen/card_header_simple_title_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/card_header_simple_title_margin_bottom</item>
-    </style><string name="card_font_fontFamily_expand">sans-serif-condensed</string><style name="card.native.expand_simple_title">
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:textSize">@dimen/card_expand_native_simple_title_text_size</item>
-        <item name="android:paddingLeft">@dimen/card_expand_native_simple_title_padding_left</item>
-        <item name="android:paddingRight">@dimen/card_expand_native_simple_title_padding_right</item>
-        <item name="android:textColor">@color/card_expand_title_color</item>
-        <item name="android:fontFamily">@string/card_native_font_fontFamily_expand</item>
-    </style><string name="card_font_fontFamily_header">sans-serif-condensed</string><style name="card.expand_simple_title">
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:fontFamily">@string/card_font_fontFamily_expand</item>
-        <item name="android:textSize">@dimen/card_expand_simple_title_text_size</item>
-        <item name="android:paddingLeft">@dimen/card_expand_simple_title_paddingLeft</item>
-        <item name="android:paddingRight">@dimen/card_expand_simple_title_paddingRight</item>
-        <item name="android:textColor">@color/card_expand_title_color</item>
-    </style></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\res\values-v21\values-v21.xml" qualifiers="v21"><string name="card_font_fontFamily_header">sans-serif-condensed</string><string name="card_font_fontFamily_main_content">sans-serif</string><style name="card.header_button_base.overflow">
-        <item name="android:src">@drawable/ic_menu_overflow_card_rounded_dark_normal</item>
-    </style><style name="card.native.header_button_base.expand">
-        <item name="android:src">@drawable/card_menu_button_expand_material_animator</item>
-    </style><string name="card_native_font_fontFamily_header">sans-serif-medium</string><style name="card.native.header_button_base.overflow">
-        <item name="android:src">@drawable/card_menu_button_overflow_material</item>
-    </style><style name="card.header_button_base">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:paddingLeft">@dimen/card_header_button_padding_left</item>
-        <item name="android:focusable">false</item>
-        <item name="android:focusableInTouchMode">false</item>
-        <item name="android:clickable">true</item>
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginRight">@dimen/card_header_button_margin_right</item>
-        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
-    </style><style name="card.header_button_base.expand">
-        <item name="android:src">@drawable/ic_menu_expand_card_dark_normal</item>
-    </style><style name="card.native.header_button_base">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignParentRight">true</item>
-        <item name="android:focusable">false</item>
-        <item name="android:focusableInTouchMode">false</item>
-        <item name="android:clickable">true</item>
-        <item name="android:layout_centerVertical">true</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
-        <item name="android:layout_marginLeft">@dimen/card_header_native_button_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/card_header_native_button_margin_right</item>
-        <item name="android:paddingLeft">0dp</item>
-    </style><string name="card_native_font_fontFamily_main_content">sans-serif</string></file></source></dataSet><dataSet config="22.1.1"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\res"/></dataSet><dataSet config="2.1.0"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-recyclerview\2.1.0\res"><file name="native_recyclerview_card_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-recyclerview\2.1.0\res\layout\native_recyclerview_card_layout.xml" qualifiers="" type="layout"/><file name="native_recyclerview_card_thumbnail_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-recyclerview\2.1.0\res\layout\native_recyclerview_card_thumbnail_layout.xml" qualifiers="" type="layout"/><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-recyclerview\2.1.0\res\values\values.xml" qualifiers=""><style name="native_recyclerview_card">
-        <item name="android:layout_marginLeft">@dimen/native_recyclerview_card_margin_left</item>
-        <item name="android:layout_marginRight">@dimen/native_recyclerview_card_margin_right</item>
-        <item name="android:layout_marginBottom">@dimen/native_recyclerview_card_margin_bottom</item>
-        <item name="android:layout_marginTop">@dimen/native_recyclerview_card_margin_top</item>
-    </style><style name="native_recyclerview_card.base">
-
-    </style><style name="native_recyclerview_card.thumbnail">
-
-    </style></file></source></dataSet><dataSet config="2.1.0"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res"><file name="topcolored_bg" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\drawable\topcolored_bg.xml" qualifiers="" type="drawable"/><file name="native_base_progress" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_base_progress.xml" qualifiers="" type="layout"/><file name="native_card_thumbnail_layout_progress" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_card_thumbnail_layout_progress.xml" qualifiers="" type="layout"/><file name="native_material_largeimage_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_material_largeimage_card.xml" qualifiers="" type="layout"/><file name="native_material_largeimage_inner_base_main" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_material_largeimage_inner_base_main.xml" qualifiers="" type="layout"/><file name="native_material_largeimage_text_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_material_largeimage_text_card.xml" qualifiers="" type="layout"/><file name="native_material_topcolored_card" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_material_topcolored_card.xml" qualifiers="" type="layout"/><file name="native_material_topcolored_inner_base_main" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_material_topcolored_inner_base_main.xml" qualifiers="" type="layout"/><file name="native_thumbnail_largematerial" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\layout\native_thumbnail_largematerial.xml" qualifiers="" type="layout"/><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\values\values.xml" qualifiers=""><string name="card_native_progressbar_text">Loading...</string><color name="card_topcolored_title_textcolor">#FFF</color><dimen name="card_topcolored_subtitle_textsize">14dp</dimen><style name="card_thumbnail_image_text_over_textstyle">
-        <item name="android:textColor">@color/card_thumbnail_image_text_over_textcolor</item>
-        <item name="android:textSize">@dimen/card_thumbnail_image_text_over_textsize</item>
-    </style><dimen name="card_topcolored_layout_minHeigth">72dp</dimen><dimen name="card_thumbnail_image_text_over_textsize">24sp</dimen><dimen name="card_thumbnail_image_text_over_padding_top">16dp</dimen><dimen name="card_main_content_native_material_large_image_paddingTop">16dp</dimen><dimen name="actions_padding_left">8dp</dimen><dimen name="actions_icon_height">54dp</dimen><dimen name="card_material_largeimage_height">200dp</dimen><dimen name="card_topcolored_title_textsize">22dp</dimen><style name="card.native.top_colored_subtitle">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">@dimen/card_topcolored_subtitle_textsize</item>
-        <item name="android:textColor">@color/card_topcolored_subtitle_textcolor</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-        <item name="android:paddingTop">@dimen/card_topcolored_subtitle_paddingtop</item>
-    </style><dimen name="card_main_content_native_material_large_image_paddingRight">16dp</dimen><dimen name="actions_icon_width">54dp</dimen><style name="card.native.top_colored_layout">
-        <item name="android:minHeight">@dimen/card_topcolored_layout_minHeigth</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:padding">@dimen/card_topcolored_layout_padding</item>
-    </style><string name="card_native_font_fontFamily_top_colored">sans-serif</string><dimen name="actions_padding">16dp</dimen><dimen name="card_main_content_native_material_large_image_paddingBottom">16dp</dimen><style name="card.native.top_colored_title">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">@dimen/card_topcolored_title_textsize</item>
-        <item name="android:textColor">@color/card_topcolored_title_textcolor</item>
-        <item name="android:layout_gravity">left|center_vertical</item>
-    </style><color name="card_thumbnail_image_text_over_textcolor">#FFF</color><dimen name="card_topcolored_subtitle_paddingtop">18dp</dimen><color name="card_topcolored_subtitle_textcolor">#80FFFFFF</color><dimen name="card_thumbnail_image_text_over_padding_bottom">16dp</dimen><dimen name="actions_textsize">14sp</dimen><dimen name="card_main_content_native_material_large_image_paddingLeft">16dp</dimen><style name="card.native.actions.button">
-        <item name="android:layout_height">@dimen/actions_icon_height</item>
-        <item name="android:layout_width">@dimen/actions_icon_width</item>
-    </style><dimen name="card_thumbnail_image_text_over_padding_left">16dp</dimen><dimen name="card_topcolored_layout_padding">16dp</dimen><style name="card.native.material_large_image_content_outer_layout" parent="card.native.content_outer_layout">
-        <item name="android:paddingLeft">@dimen/card_main_content_native_material_large_image_paddingLeft</item>
-        <item name="android:paddingRight">@dimen/card_main_content_native_material_large_image_paddingRight</item>
-        <item name="android:paddingTop">@dimen/card_main_content_native_material_large_image_paddingTop</item>
-        <item name="android:paddingBottom">@dimen/card_main_content_native_material_large_image_paddingBottom</item>
-    </style><dimen name="card_thumbnail_image_text_over_padding_right">16dp</dimen><style name="card.native.actions">
-        <item name="android:textSize">@dimen/actions_textsize</item>
-    </style></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\values-v16\values-v16.xml" qualifiers="v16"><string name="card_font_fontFamily_image_text_over">sans-serif</string><style name="card.native.actions">
-        <item name="android:fontFamily">@string/card_native_font_fontFamily_action</item>
-        <item name="android:textSize">@dimen/actions_textsize</item>
-        <item name="android:padding">@dimen/actions_padding_button</item>
-    </style><string name="card_native_font_fontFamily_action">sans-serif</string><dimen name="actions_padding_button">16dp</dimen></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\res\values-v21\values-v21.xml" qualifiers="v21"><item name="topcolored_bg" type="drawable">@null</item><string name="card_font_fontFamily_image_text_over">sans-serif-medium</string><string name="card_native_font_fontFamily_action">sans-serif-medium</string></file></source></dataSet><dataSet config="21.0.2"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\res"><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\res\values\values.xml" qualifiers=""><dimen name="default_gap">16dip</dimen><declare-styleable name="GridLayout">
+    </style><color name="cardview_dark_background">#FF202020</color></file></source></dataSet><dataSet config="21.0.2"><source path="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.2/res"><file path="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.2/res/values/values.xml" qualifiers=""><dimen name="default_gap">16dip</dimen><declare-styleable name="GridLayout">
 
         <!--
               support versions. All attributes not present in ViewGroup/View are
@@ -720,7 +225,18 @@
             <!-- Push object to the end of its container, not changing its size. -->
             <flag name="end" value="0x00800005"/>
         </attr>
-    </declare-styleable></file></source></dataSet><dataSet config="main"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res"><file name="ic_launcher" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="tile" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\drawable-hdpi\tile.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="main" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file name="my_text_view" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\layout\my_text_view.xml" qualifiers="" type="layout"/><file name="main" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values\base-strings.xml" qualifiers=""><string name="intro_message">
+    </declare-styleable></file></source></dataSet><dataSet config="main"><source path="/home/tomer/Projects/EasyShop/Application/src/main/res"><file name="main" path="/home/tomer/Projects/EasyShop/Application/src/main/res/layout/main.xml" qualifiers="" type="layout"/><file name="my_text_view" path="/home/tomer/Projects/EasyShop/Application/src/main/res/layout/my_text_view.xml" qualifiers="" type="layout"/><file name="activity_my" path="/home/tomer/Projects/EasyShop/Application/src/main/res/layout/activity_my.xml" qualifiers="" type="layout"/><file name="card_layout" path="/home/tomer/Projects/EasyShop/Application/src/main/res/layout/card_layout.xml" qualifiers="" type="layout"/><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values-v11/template-styles.xml" qualifiers="v11"><style name="Theme.Base" parent="android:Theme.Holo.Light"/></file><file name="ic_launcher" path="/home/tomer/Projects/EasyShop/Application/src/main/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="tile" path="/home/tomer/Projects/EasyShop/Application/src/main/res/drawable-hdpi/tile.9.png" qualifiers="hdpi-v4" type="drawable"/><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values-v21/base-template-styles.xml" qualifiers="v21"><style name="Theme.Base" parent="android:Theme.Material.Light">
+            <item name="android:colorPrimary">@color/colorPrimary</item>
+            <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values-v21/base-colors.xml" qualifiers="v21"><color name="colorPrimary">#00BCD4</color><color name="colorPrimaryDark">#00838F</color></file><file name="ic_launcher" path="/home/tomer/Projects/EasyShop/Application/src/main/res/drawable-xxhdpi/ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="/home/tomer/Projects/EasyShop/Application/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values/strings.xml" qualifiers=""><string name="linear_layout_manager">Linear Layout Manager</string><string name="element_text">Element</string><string name="grid_layout_manager">Grid Layout Manager</string></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values/colors.xml" qualifiers=""><color name="whiteBG">#FFFEFEFE</color><color name="transparentBlack">#66000000 </color></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values/template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style><style name="AppTheme" parent="Theme.Sample"/><style name="Theme.Sample" parent="Theme.Base"/><style name="Widget"/><style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values/base-strings.xml" qualifiers=""><string name="intro_message">
         <![CDATA[
         
             
@@ -730,19 +246,8 @@
             
         
         ]]>
-    </string><string name="app_name">RecyclerView</string></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values\colors.xml" qualifiers=""><color name="whiteBG">#FFFEFEFE</color><color name="transparentBlack">#66000000 </color></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values\dimens.xml" qualifiers=""><dimen name="list_item_height">72dp</dimen></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values\fragmentview_strings.xml" qualifiers=""><string name="sample_show_log">Show Log</string><string name="sample_hide_log">Hide Log</string></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values\strings.xml" qualifiers=""><string name="linear_layout_manager">Linear Layout Manager</string><string name="element_text">Element</string><string name="grid_layout_manager">Grid Layout Manager</string></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values\template-dimens.xml" qualifiers=""><dimen name="margin_small">8dp</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="margin_tiny">4dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values\template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Widget.SampleMessage">
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
-        <item name="android:lineSpacingMultiplier">1.1</item>
-    </style><style name="AppTheme" parent="Theme.Sample"/><style name="Theme.Sample" parent="Theme.Base"/><style name="Widget"/><style name="Widget.SampleMessageTile">
-        <item name="android:background">@drawable/tile</item>
-        <item name="android:shadowColor">#7F000000</item>
-        <item name="android:shadowDy">-3.5</item>
-        <item name="android:shadowRadius">2</item>
-    </style></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values-sw600dp\template-dimens.xml" qualifiers="sw600dp-v13"><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="horizontal_page_margin">@dimen/margin_huge</dimen></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values-sw600dp\template-styles.xml" qualifiers="sw600dp-v13"><style name="Widget.SampleMessage">
+    </string><string name="app_name">RecyclerView</string></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values/fragmentview_strings.xml" qualifiers=""><string name="sample_show_log">Show Log</string><string name="sample_hide_log">Hide Log</string></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values/dimens.xml" qualifiers=""><dimen name="list_item_height">72dp</dimen></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values/template-dimens.xml" qualifiers=""><dimen name="margin_small">8dp</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="margin_tiny">4dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen></file><file name="ic_launcher" path="/home/tomer/Projects/EasyShop/Application/src/main/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values-sw600dp/template-styles.xml" qualifiers="sw600dp-v13"><style name="Widget.SampleMessage">
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
         <item name="android:lineSpacingMultiplier">1.2</item>
         <item name="android:shadowDy">-6.5</item>
-    </style></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values-v11\template-styles.xml" qualifiers="v11"><style name="Theme.Base" parent="android:Theme.Holo.Light"/></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values-v21\base-colors.xml" qualifiers="v21"><color name="colorPrimary">#00BCD4</color><color name="colorPrimaryDark">#00838F</color></file><file path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\values-v21\base-template-styles.xml" qualifiers="v21"><style name="Theme.Base" parent="android:Theme.Material.Light">
-            <item name="android:colorPrimary">@color/colorPrimary</item>
-            <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
-    </style></file><file name="activity_my" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\layout\activity_my.xml" qualifiers="" type="layout"/><file name="card_layout" path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\res\layout\card_layout.xml" qualifiers="" type="layout"/></source><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\common\res"/><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\template\res"/><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\generated\res\rs\debug"/><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="GridLayout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode"><enum name="alignBounds" value="0"/><enum name="alignMargins" value="1"/></attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable><declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundInsidePadding"/><attr name="android:foregroundGravity"/></declare-styleable><declare-styleable name="card_listItem"><attr format="dimension" name="card_list_item_dividerHeight"/></declare-styleable><declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable><declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="float" name="layout_rowWeight"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr format="float" name="layout_columnWeight"/><attr name="layout_gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable><declare-styleable name="card_options"><attr format="reference" name="card_layout_resourceID"/><attr format="reference" name="card_shadow_layout_resourceID"/><attr format="reference" name="card_header_layout_resourceID"/><attr format="reference" name="card_thumbnail_layout_resourceID"/><attr format="reference" name="list_card_layout_resourceID"/><attr format="reference" name="list_card_layout_resourceIDs"/></declare-styleable></configuration></mergedItems></merger>
+    </style></file><file path="/home/tomer/Projects/EasyShop/Application/src/main/res/values-sw600dp/template-dimens.xml" qualifiers="sw600dp-v13"><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="horizontal_page_margin">@dimen/margin_huge</dimen></file><file name="main" path="/home/tomer/Projects/EasyShop/Application/src/main/res/menu/main.xml" qualifiers="" type="menu"/></source><source path="/home/tomer/Projects/EasyShop/Application/src/common/res"/><source path="/home/tomer/Projects/EasyShop/Application/src/template/res"/><source path="/home/tomer/Projects/EasyShop/Application/build/generated/res/rs/debug"/><source path="/home/tomer/Projects/EasyShop/Application/build/generated/res/generated/debug"/></dataSet><dataSet config="debug"><source path="/home/tomer/Projects/EasyShop/Application/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="GridLayout"><attr name="orientation"><enum name="horizontal" value="0"/><enum name="vertical" value="1"/></attr><attr format="integer" name="rowCount"/><attr format="integer" name="columnCount"/><attr format="boolean" name="useDefaultMargins"/><attr name="alignmentMode"><enum name="alignBounds" value="0"/><enum name="alignMargins" value="1"/></attr><attr format="boolean" name="rowOrderPreserved"/><attr format="boolean" name="columnOrderPreserved"/></declare-styleable><declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable><declare-styleable name="GridLayout_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_margin"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginRight"/><attr name="android:layout_marginBottom"/><attr format="integer" name="layout_row"/><attr format="integer" min="1" name="layout_rowSpan"/><attr format="float" name="layout_rowWeight"/><attr format="integer" name="layout_column"/><attr format="integer" min="1" name="layout_columnSpan"/><attr format="float" name="layout_columnWeight"/><attr name="layout_gravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr></declare-styleable></configuration></mergedItems></merger>

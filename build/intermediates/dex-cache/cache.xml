@@ -2,81 +2,60 @@
 <items version="2" >
 
     <item
-        jar="E:\SDK\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jar="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-45e4e870dc1445f7e1254e7de9a3aa7d8bf75ab8.jar" />
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/classes-02fc3a08a151609de1ea52cf3647fe4f06492fc9.jar" />
     </item>
     <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\src\main\libs\Parse-1.9.2.jar"
+        jar="/home/tomer/Projects/EasyShop/Application/src/main/libs/Parse-1.9.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="fe739334780fe321141e62720822c2d456061899">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\Parse-1.9.2-3c61a271a03c549e0d16d8b87fd0f238c4edda49.jar" />
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/Parse-1.9.2-fc8c19842417aac2cede4e28806cc73bb781c853.jar" />
     </item>
     <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\classes.jar"
+        jar="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="8190861e323934dad89d5e6b830ea66878c11970">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\classes-7a635283027f237b353e74f504c612343bd42ff2.jar" />
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-7e34f721dd1aa9c0aaf1c1771dbdf6ff045159ff.jar" />
     </item>
     <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\classes.jar"
+        jar="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\classes-e4fbad9efde830d716a15b4ac01f3b60c1e31729.jar" />
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/classes-bc0354fa017ac5bfd21d590714132993bf8eef78.jar" />
     </item>
     <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.1.1\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="22886d910315028a2b34b1ba068c265534ade87a">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\classes-092fb1196a8c06fbf0b16c44c74aa17e660ddd26.jar" />
-    </item>
-    <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.1.1\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\classes-d802bddb00994390d6855c3887f508d9bcf0e5b4.jar" />
-    </item>
-    <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\libs\internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-16eaa429d563c8aac7718b5b04e54805278d4ea8.jar" />
-    </item>
-    <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\classes-a318ccb07ad9301a30e667809d5b533b9728e79f.jar" />
-    </item>
-    <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-cards\2.1.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9ec1d846000db2b979dac2159584f027195a8174">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\classes-5d2e570450f8a1c278122d2a1a3ad391ea9f8ec0.jar" />
-    </item>
-    <item
-        jar="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-recyclerview\2.1.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c187f5fc4f47d1abb8839d124591502ece9b7a37">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\classes-0356eb2004230a99f27c917ed401ee5f3893f6a4.jar" />
-    </item>
-    <item
-        jar="C:\Users\tomer\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jar="/home/tomer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="C:\Users\tomer\AndroidStudioProjects\RecyclerView\Application\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-032590ede9de4c2ef02cbc6631140ca8ebb8be60.jar" />
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-d4c252a79824685f4700f1268f7a30379e013ab7.jar" />
+    </item>
+    <item
+        jar="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/classes-c25a8a60bd500820ee699823383d48eb0bd02004.jar" />
+    </item>
+    <item
+        jar="/home/tomer/Projects/EasyShop/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/classes-f39229a6a8d24aa624c9ff90b4aa18978fd2df38.jar" />
+    </item>
+    <item
+        jar="/home/tomer/Android/SDK/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/home/tomer/Projects/EasyShop/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-65a00ac2545262a4c626a4d43f3574ab76405011.jar" />
     </item>
 
 </items>
